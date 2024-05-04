@@ -1,0 +1,259 @@
+body {
+    font-family: Poppins;
+    margin: 0;   
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+  }
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    padding-top: 2.5px;
+    padding-bottom: 10px;
+    margin-bottom: -20px;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0 0.6);
+}
+
+#logo {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#navbar {
+   display: flex;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    margin-top: 10px;
+    position: relative;
+}
+
+#navbar li:nth-last-of-type(3) {
+    margin-right: 200px;
+    margin-left: 10px;
+}
+
+#navbar li:nth-last-of-type(4), #navbar li:nth-last-of-type(5), #navbar li:nth-last-of-type(6) {
+    margin-left: 10px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #1a1a1a;
+}
+
+#navbar li a:hover {
+    color: #088178;
+}
+
+
+.headerline {
+    background-color: #1a1a1a;
+    height: 15px;
+    margin-bottom: 0;
+}
+
+#cart, #user {
+    font-size: 25px;
+}
+
+.mainbody-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#body-pic {
+    width: 100%;
+    max-width: 1550px;
+    height: 325px;
+    object-fit: cover;
+    filter: brightness(50%);
+    user-select: none;
+}
+
+#image-text {
+    font-family: Poppins;
+    color: white;
+    z-index: 1;
+    text-align: center;
+}
+
+#image-text p{
+    text-align: center;
+    font-size: 17px;
+    margin-top: -40px;
+    letter-spacing: 0px;
+}
+
+#image-text h2{
+    font-family: Poppins;
+    color: white;
+    margin-top: -230px;
+    font-size: 55px;
+    letter-spacing: 5px;
+    z-index: 1;
+    text-align: center;
+}
+
+.midtext {
+    margin-top: 50px; 
+    font-family: Poppins;
+    display: flex;
+    justify-content:center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.midtext h1{
+    margin-top: 50px;
+}
+
+.midtext #tech {
+    float: center;
+}
+
+.midtext #welcome {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.midtext #techall {
+    display: inline-flex;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.midtext h2 {
+    display: inline-flex;
+    margin-top: 70px;
+}
+
+.midtext #tec {    
+    position: relative;
+    right: 20px;
+}
+
+.midtext #tec2  {    
+    margin-left: 400px;
+}
+
+.midtext #tech1{
+    text-align: center;
+    margin-right: 140px;
+}
+
+.midtext #tech3 {
+    display: flex;
+}
+
+.midtext p {
+    margin-top: -10px;
+    opacity: 95%;
+}
+
+.midtext h2 {
+    margin-bottom: -1px;
+    text-align: center;
+}
+
+.text {
+    display: flex;  
+    margin-right: 50px;
+    font-family: Poppins;
+    align-items: center;
+
+}
+
+.text h1 {
+    font-size: 45px;
+}   
+
+.text #who{
+    text-align: left;
+    text-align: justify;
+    float: left;
+    margin-left: 100px;
+}
+
+.text img {
+    width: 550px;
+    user-select: none;
+    position: relative;
+    left: 50px;
+}
+
+.text p {
+    margin-top: -30px;
+    opacity: 95%;;
+}
+
+footer {
+    background-color: black;
+    margin-top: auto;
+}
+.footer-container{
+    width: 100%;
+    padding-top: 30px;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+}
+.socials a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+.socials a i{
+    font-size: 32px;
+    color: white;
+    opacity: 0,9;
+}
+
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+}
+.footer-nav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 21px;
+    opacity: 0.7;
+}
+.footer-nav ul li a:hover{
+    opacity: 1;
+}
+.copyright{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.copyright p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    margin: 0px 5px;
+}
+
+#tec, #tec2 {
+    margin-bottom: 30px;
+}

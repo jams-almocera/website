@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>Website</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="index.html"><img id="logo" src="roundlogo.png" alt=""></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                    <li><a href="cart.html"><i class="fas fa-shopping-cart" id="cart"></i> Cart</a></li>
+                    <li><a href="login.html"><i class="fas fa-user" id="user"></i> Account</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="headerline"></p>
+    </header>
+
+    <section id="mainbody-container">
+        <img id="body-pic" src="https://images.unsplash.com/photo-1618224619763-c26996a38420?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        <h2>Contact Us</h2>
+        <p>Need assistance? Drop us a message; we're here to help!</p>
+    </section>
+
+    <div id="cart" class="cart">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="remove1.1.html"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="https://i.ebayimg.com/images/g/lCcAAOSwsp1k50ui/s-l400.jpg" alt=""></td>
+                    <td>Samsung Galaxy S23 Ultra</td>
+                    <td style="font-family: Nunito; font-weight: 700">₱ 69,999</td>
+                    <td><input type="number" value="1"></td>
+                    <td style="  font-family: Nunito; font-weight: 700">₱ 69,999</td>
+                </tr>
+
+                <tr>
+                    <td><a href="remove1.3.html"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="https://www.gigahertz.com.ph/cdn/shop/files/image-removebg-preview-2024-03-11T105535.271_1024x.png?v=1712030630" alt=""></td>
+                    <td>Sony Playstation 5</td>
+                    <td style="font-family: Nunito; font-weight: 700">₱ 29,999</td>
+                    <td><input type="number" value="1"></td>
+                    <td style="  font-family: Nunito; font-weight: 700">₱ 29,999</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="cart-add" class="cart">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <a href="">Apply</a>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td style="  font-family: Nunito; font-weight: 700">₱ 99,998</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td style="  font-family: Nunito; font-weight: 700"><strong>₱ 99,998</strong></td>
+                </tr>
+            </table>
+            <a href="checkout.html">Proceed to Checkout</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="socials">
+                <a href="https://web.facebook.com/ddarkreaperr/"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/jajajajabno/?igsh=MXc1czg3cG5xNHJ2dg%3D%3D&fbclid=IwAR063OuPenMn0aqV9ilwX0FuyXQTPOSYjwWmjFKJ_5CHDQ9yBfXkbkAIaBM"><i class="fab fa-instagram"></i></a>
+                <a href="https://x.com/jajajajajajabno?t=oc5hbzR1-U9GRKpEjKM_Zw&s=09"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/channel/UC5nWSPFbV26x6RZtr5AgPmQ"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="footer-nav">
+                <ul><li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contacts.html">Contact Us</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2024,<span class="designer">TechThrift</span></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
